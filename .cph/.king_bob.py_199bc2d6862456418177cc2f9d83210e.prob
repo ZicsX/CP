@@ -1,0 +1,1 @@
+{"name":"Local: king_bob","url":"c:\\Users\\zics\\Desktop\\CP\\king_bob.py","tests":[{"id":1655819256866,"input":"1\n5\n1 2\n1 2\n1 3\n3 2","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\zics\\Desktop\\CP\\king_bob.py","group":"local","local":true}
