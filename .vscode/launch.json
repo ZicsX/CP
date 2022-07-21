@@ -1,8 +1,15 @@
 {
   "version": "0.2.0",
   "configurations": [
+  {
+    "type": "java",
+    "name": "Java",
+    "request": "launch",
+    "mainClass": ""
+  },
+    
     {
-      "name": "C/C++: g++.exe build and debug active file",
+      "name": "C/C++",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",

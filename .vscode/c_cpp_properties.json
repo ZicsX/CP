@@ -3,8 +3,9 @@
         {
             "name": "GCC",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/MinGW/include"
+                "C:/MinGW/include",
+                "C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32",
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -15,11 +16,18 @@
             "compilerPath": "C:/MinGW/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "mergeConfigurations": false
         },
         {
             "name": "Win32",
             "includePath": [
+                "C:/MinGW/include",
+                "C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -31,7 +39,14 @@
             "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-msvc-x64",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4
